@@ -11,6 +11,7 @@ class DetailViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
     var selectedImage: String?
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = selectedImage
@@ -29,6 +30,7 @@ class DetailViewController: UIViewController {
         navigationController?.hidesBarsOnTap = false
     }
 
+    
     /*
     // MARK: - Navigation
 
